@@ -1,0 +1,2 @@
+# new_hampshire_real_estate_analysis_2026_analysis
+analysis of the new_hampshire_real_estate_2026 dataset from kaggle
