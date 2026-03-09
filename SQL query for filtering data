@@ -1,0 +1,19 @@
+CREATE TABLE new_hampshire_real_estate_2026_cleaned AS
+SELECT type, text, listprice, sqft, beds, baths_full_calc,
+	CAST(stories AS INTEGER) AS stories1,
+	CAST(garage AS INTEGER) AS garage1
+FROM new_hampshire_real_estate_2026_raw
+WHERE listprice IS NOT NULL
+	AND sqft IS NOT NULL 
+	AND stories IS NOT NULL
+	AND beds IS NOT NULL
+	AND baths IS NOT NULL
+	AND baths_full IS NOT NULL
+	AND baths_full_calc IS NOT NULL
+	AND garage IS NOT NULL
+	AND garage1 < 6
+	AND stories1 < 5
+	AND baths_full_calc < 6
+	AND beds < 8
+	AND sqft < 4500
+	AND listprice < 1412250
