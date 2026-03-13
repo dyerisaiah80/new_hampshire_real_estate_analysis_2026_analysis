@@ -1,5 +1,9 @@
 # new_hampshire_real_estate_analysis_2026_analysis
 In this project I took a dataset from kaggle and I used my data analysis skills to analyze said data. The dataset consist of real estata data from New Hampshire from 2026. The main question I tried answering in this project was what is the main contributors to home listing prices. For this analysis I used SQL for cleaning the data, Rstudio to analyze the data, powerBI for visualizations, and I used power point for the final presentation. 
 
-
+-Used kaggle for dataset
+-used excel to view dataset
+-used sql to clean dataset
+-used power bi for visuals
+-used power point for presentation of data
 
